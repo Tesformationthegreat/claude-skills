@@ -2,20 +2,26 @@
 
 A collection of Claude Code skill files.
 
-## Product Manager Skill
+## Skills
 
-### How to Download
+| Skill | Description |
+| --- | --- |
+| [product-manager](product-manager/) | Product management workflows, PRDs, and roadmapping. |
+| [building-first-apps](building-first-apps/) | Go from idea to deployed product — intake, stack picks, architecture, and a premium UI standard. |
 
-1. Open this repo in your browser: [github.com/Tesformationthegreat/claude-skills](https://github.com/Tesformationthegreat/claude-skills)
-2. Open the **product-manager** folder
-3. Click on **product-manager.skill**
-4. Click the **Download raw file** button (small icon, top right of the file view)
-5. Save it somewhere you can find it (Downloads folder is fine)
+Each subfolder contains a `README.md` with skill details and a `.skill` file you can install directly.
 
-### How to Install
+## How to Install
 
-Once downloaded, install the skill in Claude Code:
+1. Open the skill's subfolder above
+2. Click on the `.skill` file (e.g. `product-manager.skill` or `building-first-apps.skill`)
+3. Click the **Download raw file** button (small icon, top right of the file view)
+4. Save it somewhere you can find it (Downloads folder is fine)
+
+Then in Claude Code:
 
 ```
-/skill install /path/to/product-manager.skill
+/skill install /path/to/<skill-name>.skill
 ```
+
+For Claude.ai install steps, see each skill's own README.
